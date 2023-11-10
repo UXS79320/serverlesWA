@@ -31,7 +31,6 @@ DynamoDB:
 Created a DynamoDB table for data.
 Defined necessary indexes.
 RDS:
-
 Created an RDS instance for relational database needs.
 Configured security groups and IAM roles.
 4. Authentication and Authorization:
@@ -42,17 +41,21 @@ Integrated Cognito User Pool with API Gateway for authentication.
 AWS CodePipeline/CodeBuild:
 Configured a CodePipeline or CodeBuild for continuous integration and deployment.
 Managed source, build, and deploy stages.
+
 6. Monitoring and Logging:
 Used Amazon CloudWatch for logging and monitoring.
 Set up CloudWatch Alarms for critical metrics.
 Utilized AWS X-Ray for tracing and debugging.
+
 7. Testing:
 Implemented unit testing and integration testing for Lambda functions.
 Utilized tools like AWS SAM (Serverless Application Model) for local testing.
+
 8. Additional Considerations:
 Serverless Framework: Considered using the Serverless Framework for simplifying deployment and management.
 Security: Implemented best practices for securing the serverless application.
 Scalability: Ensured the application could scale horizontally with increasing load.
+
 9. Costs:
 Understood the cost implications of each service and optimized accordingly.
 
